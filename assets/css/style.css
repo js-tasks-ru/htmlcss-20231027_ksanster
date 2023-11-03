@@ -1,0 +1,11 @@
+@import url("normalize.css");
+@import url("../../components/page-header/page-header.css");
+@import url("../../components/page-header/page-header__title.css");
+@import url("../../components/page-footer/page-footer.css");
+@import url("../../components/page-footer/page-footer__title.css");
+@import url("../../components/page-footer/page-footer__text.css");
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+}
