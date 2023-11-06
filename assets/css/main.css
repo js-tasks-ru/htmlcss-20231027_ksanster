@@ -2,6 +2,8 @@
 @import url("../../components/page/page.css");
 @import url("../../components/header/header.css");
 @import url("../../components/footer/footer.css");
+@import url("../../components/preview/preview.css");
+@import url("../../components/container/container.css");
 
 :root {
     --white: #ffffff;
