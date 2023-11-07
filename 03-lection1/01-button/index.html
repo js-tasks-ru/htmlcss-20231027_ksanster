@@ -4,8 +4,31 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
+        <style>
+            .container {
+                display: flex;
+                gap: 20px;
+                height: 48px;
+                margin: 20px 0 0 0;
+            }
+            .container_item {
+                flex-basis: 182px;
+            }
+        </style>
+
     </head>
     <body>
-
+        <div>
+            <div class="container">
+                <button class="button button_theme_primary container_item">Button</button>
+                <button class="button button_theme_secondary container_item">Button</button>
+                <button class="button button_theme_alternate container_item">Button</button>
+            </div>
+            <div class="container">
+                <button class="button button_theme_primary container_item" disabled>Button</button>
+                <button class="button button_theme_secondary container_item" disabled>Button</button>
+                <button class="button button_theme_alternate container_item" disabled>Button</button>
+            </div>
+        </div>
     </body>
 </html>
