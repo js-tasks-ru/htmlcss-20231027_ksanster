@@ -18,13 +18,16 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --blue-1: #2342C0;
+    --purple-1: #5028C6;
+
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
+    --primary-active: var(--blue-1);
     --secondary: var(--purple);
+    --secondary-active: var(--purple-1);
+    --alternate: var(--white);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
-}
