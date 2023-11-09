@@ -1,10 +1,12 @@
-@import '../fonts/fonts.css';
-@import './normalize.css';
-@import url("../../components/page/page.css");
-@import url("../../components/header/header.css");
-@import url("../../components/footer/footer.css");
-@import url("../../components/preview/preview.css");
-@import url("../../components/container/container.css");
+@import "../fonts/fonts.css";
+@import "./normalize.css";
+
+@import "../../components/page/page.css";
+@import "../../components/header/header.css";
+@import "../../components/footer/footer.css";
+@import "../../components/preview/preview.css";
+@import "../../components/container/container.css";
+@import "../../components/card/card.css";
 
 :root {
     --white: #ffffff;
@@ -30,4 +32,3 @@
     --secondary-active: var(--purple-1);
     --alternate: var(--white);
 }
-
