@@ -4,8 +4,32 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./skeleton.css">
+        <style>
+            .wrapper {
+                margin: 10px;
+                display: flex;
+            }
+            .wrapper__inner {
+                flex-grow: 1;
+            }
+        </style>
     </head>
     <body>
+        <div class="wrapper">
+            <div class="skeleton wrapper__inner">
+                <div class="skeleton__top">
+                    <div class="skeleton__avatar avatar_size"></div>
+                    <div class="skeleton__column">
+                        <div class="skeleton__row row_size0"></div>
+                        <div class="skeleton__row row_size1"></div>
+                    </div>
+                </div>
+                <div class="skeleton__bottom bottom_size">
+                    <div class="skeleton__row row_size2"></div>
+                    <div class="skeleton__row row_size3"></div>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
