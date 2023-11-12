@@ -19,6 +19,7 @@
 }
 
 .skeleton__bottom {
+    padding-top: 24px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -26,18 +27,11 @@
     gap: 8px;
 }
 
-.bottom_size {
-    height: 72px;
-}
-
 .skeleton__avatar {
-    background-color: var(--grey-2);
-    border-radius: 50%;
-}
-
-.avatar_size {
     width: 64px;
     height: 64px;
+    background-color: var(--grey-2);
+    border-radius: 50%;
 }
 
 .skeleton__row {
@@ -45,18 +39,18 @@
     background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
-.row_size0 {
+.skeleton__row_small {
     width: 36%;
 }
 
-.row_size1 {
+.skeleton__row_medium {
     width: 54%;
 }
 
-.row_size2 {
+.skeleton__row_full {
     width: 100%;
 }
 
-.row_size3 {
+.skeleton__row_big {
     width: 92%;
 }
