@@ -44,10 +44,9 @@
 }
 
 .histogram__chart {
-    margin: 0;
-    height: 50%;
+    margin: 39px 0 0 0;
+    height: 50px;
 
-    padding: 10px 5px 0 2px;
     flex-grow: 1;
     display: flex;
     flex-direction: row;
@@ -55,7 +54,7 @@
     gap: 1px;
 }
 
-.chart__item {
+.histogram__chart-item {
     background-color: var(--blue-2);
     flex-grow: 1;
 }
