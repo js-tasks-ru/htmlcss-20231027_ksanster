@@ -1,0 +1,10 @@
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.page__main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+}
