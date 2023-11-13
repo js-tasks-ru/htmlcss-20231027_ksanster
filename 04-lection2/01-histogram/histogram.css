@@ -59,18 +59,18 @@
     flex-grow: 1;
 }
 
-.chart__item_size30 {
+.histogram__chart-item_size30 {
     height: 30%;
 }
 
-.chart__item_size10 {
+.histogram__chart-item_size10 {
     height: 10%;
 }
 
-.chart__item_size70 {
+.histogram__chart-item_size70 {
     height: 70%;
 }
 
-.chart__item_size100 {
+.histogram__chart-item_size100 {
     height: 100%;
 }
