@@ -27,6 +27,23 @@
 }
 
 .footer__inner {
-    max-width: 640px;
     margin: 0 auto;
+    max-width: 640px;
+}
+
+.footer_template {
+    background-color: transparent;
+    padding: 56px 0 56px;
+    margin: 0 auto;
+}
+
+.footer__label {
+    color: var(--grey-3);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
 }

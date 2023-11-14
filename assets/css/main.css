@@ -1,5 +1,6 @@
 @import "../fonts/fonts.css";
 @import "./normalize.css";
+@import "./vars.css";
 
 @import "../../components/page/page.css";
 @import "../../components/header/header.css";
@@ -7,33 +8,3 @@
 @import "../../components/preview/preview.css";
 @import "../../components/container/container.css";
 @import "../../components/card/card.css";
-
-:root {
-    --white: #ffffff;
-    --black: #212429;
-    --pink: #F784AD;
-    --purple: #7048E8;
-    --blue: #374FC7;
-    --red: #F03D3E;
-    --grey-1: #F8F9FA;
-    --grey-2: #DDE2E5;
-    --grey-3: #ACB5BD;
-    --grey-4: #495057;
-
-    --blue-1: #2342C0;
-    --blue-2: #4263EB;
-
-    --purple-1: #5028C6;
-
-    --error: var(--red);
-    --success: var(--blue);
-
-    --primary: var(--blue);
-    --primary-active: var(--blue-1);
-    --secondary: var(--purple);
-    --secondary-active: var(--purple-1);
-    --alternate: var(--white);
-
-    --link: #4263EB;
-
-}

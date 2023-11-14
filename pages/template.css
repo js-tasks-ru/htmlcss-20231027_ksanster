@@ -1,10 +1,15 @@
-.page {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+@import "../assets/fonts/fonts.css";
+@import "../assets/css/normalize.css";
+@import "../assets/css/vars.css";
+
+@import "../components/template-page/template-page.css";
+@import "../components/menu/menu.css";
+@import "../components/details/details.css";
+@import "../components/header/header.css";
+@import "../components/footer/footer.css";
+
+html, body {
+    height: 100%;
+    background-color: #F9FAFC;
 }
 
-.page__main {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-column-gap: 56px;
-}
