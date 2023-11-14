@@ -4,8 +4,45 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./histogram.css">
+        <style>
+            .wrapper {
+                max-width: 354px;
+                height: 185px;
+                margin: 10px auto;
+                display: flex;
+            }
+            .wrapper__inner {
+                flex-grow: 1;
+            }
+        </style>
     </head>
     <body>
-
+        <div class="wrapper">
+            <div class="histogram wrapper__inner">
+                <div class="histogram__info">
+                    <div class="histogram__column">
+                        <p class="histogram__label">Total orders</p>
+                        <h4 class="histogram__value">50254</h4>
+                    </div>
+                    <div class="histogram__column">
+                        <a class="histogram__link">View all</a>
+                    </div>
+                </div>
+                <div class="histogram__chart">
+                    <div class="histogram__chart-item histogram__chart-item_size30"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size10"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size100"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size70"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size30"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size10"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size100"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size70"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size30"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size10"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size100"></div>
+                    <div class="histogram__chart-item histogram__chart-item_size70"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

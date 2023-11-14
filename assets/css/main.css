@@ -21,6 +21,8 @@
     --grey-4: #495057;
 
     --blue-1: #2342C0;
+    --blue-2: #4263EB;
+
     --purple-1: #5028C6;
 
     --error: var(--red);
@@ -31,4 +33,7 @@
     --secondary: var(--purple);
     --secondary-active: var(--purple-1);
     --alternate: var(--white);
+
+    --link: #4263EB;
+
 }
