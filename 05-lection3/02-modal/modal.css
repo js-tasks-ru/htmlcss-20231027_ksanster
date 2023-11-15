@@ -17,12 +17,15 @@
     border-radius: 8px;
     background-color: var(--white);
     padding: 30px 40px;
-    width: 348px;
-    height: 234px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.modal__popup_size {
+    width: 348px;
+    height: 234px;
 }
 
 .modal__close {
