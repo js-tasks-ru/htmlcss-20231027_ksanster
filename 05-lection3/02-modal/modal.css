@@ -1,29 +1,29 @@
 .modal {
     display: none;
-}
-
-.modal__background {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
 
-    opacity: 0.5;
-    background: #C4C4C4;
+    background-color: rgba(196, 196, 196, 0.5);
+}
+
+.modal__background {
 }
 
 .modal__popup {
     border-radius: 8px;
-    background-color: var(--white);
     padding: 30px 40px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    
+    background-color: rgba(255, 255, 255, 1);
 }
 
-.modal__popup_size {
+.modal__popup_size-default {
     width: 348px;
     height: 234px;
 }
@@ -36,7 +36,10 @@
     position: absolute;
     top: 12px;
     right: 12px;
+}
 
+.modal__close:hover {
+    cursor: pointer;
 }
 
 .modal__title {
