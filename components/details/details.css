@@ -5,6 +5,7 @@
 
 .details__title {
     margin: 0;
+    min-width: 729px;
     color: var(--grey-4);
     font-family: Inter;
     font-size: 28px;

@@ -1,15 +1,5 @@
 .template-page {
     height: 100%;
-    max-width: 1440px;
-    margin: 0 165px 0 165px;
-
     display: grid;
     grid-template-rows: auto 1fr auto;
-}
-
-.template-page__main {
-    max-width: 1110px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-column-gap: 56px;
 }

@@ -1,11 +1,12 @@
 .menu {
     width: 229px;
     background-color: transparent;
+}
+.menu__nav {
     display: grid;
     grid-template-rows: auto;
     align-content: flex-start;
 }
-
 .menu__title {
     color: #000;
 
