@@ -12,3 +12,8 @@
     line-height: 64px;
     margin: 0;
 }
+
+.header_template {
+    padding: 24px 0 60px 0;
+    background-color: transparent;
+}
