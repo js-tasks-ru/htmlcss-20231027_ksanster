@@ -5,11 +5,21 @@
 
 .details__title {
     margin: 0;
-    min-width: 729px;
     color: var(--grey-4);
     font-family: Inter;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: 38px;
+}
+
+@media screen and (max-width: 375px) {
+    .details {
+        padding: 32px 0 64px 0;
+    }
+
+    .details__title {
+        font-size: 20px;
+        line-height: 26px;
+    }
 }
