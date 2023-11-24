@@ -2,11 +2,13 @@
     width: 229px;
     background-color: transparent;
 }
+
 .menu__nav {
     display: grid;
     grid-template-rows: auto;
     align-content: flex-start;
 }
+
 .menu__title {
     color: #000;
 
@@ -19,6 +21,7 @@
     margin: 0;
     padding: 32px 0 16px 0;
 }
+
 .menu__title:first-child {
     padding-top: 0;
 }
@@ -34,4 +37,10 @@
 
 .menu__item_selected {
     color: var(--notification);
+}
+
+@media screen and (max-width: 375px) {
+    .menu {
+        display: none;
+    }
 }

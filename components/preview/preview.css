@@ -5,5 +5,16 @@
 
 .preview__cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    .preview {
+        padding: 24px 0;
+    }
+
+    .preview__cards {
+        gap: 16px;
+    }
 }
