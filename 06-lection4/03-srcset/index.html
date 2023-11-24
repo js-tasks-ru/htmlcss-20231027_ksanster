@@ -3,8 +3,19 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./srcset.css">
+        <style>
+            .wrapper {
+                width: 300px;
+                height: 300px;
+            }
+        </style>
     </head>
     <body>
-
+        <div class="wrapper">
+            <img class="adaptive-image"
+                 src="./public/forest_400.jpg"
+                 srcset="./public/forest_400.jpg 1x, ./public/forest_768.jpg 2x"
+                 alt="Forest image">
+        </div>
     </body>
 </html>
