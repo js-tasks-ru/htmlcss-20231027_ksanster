@@ -4,8 +4,54 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            .wrapper {
+                width: 120px;
+                margin: 10px auto;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        </style>
     </head>
     <body>
+    <div class="wrapper">
+        <label class="radio">
+            <input type="radio" name="test" class="radio__input">
+            <div class="radio__state">
+                <div class="radio__switcher">
+                    <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                    </svg>
+                </div>
+                <div class="radio__caption">Default</div>
+            </div>
+        </label>
 
+        <label class="radio">
+            <input type="radio" name="test" class="radio__input" checked>
+            <div class="radio__state">
+                <div class="radio__switcher">
+                    <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                    </svg>
+                </div>
+                <div class="radio__caption">Selected</div>
+            </div>
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="test" class="radio__input" disabled>
+            <div class="radio__state">
+                <div class="radio__switcher">
+                    <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                    </svg>
+                </div>
+                <div class="radio__caption">Disabled</div>
+            </div>
+        </label>
+
+    </div>
     </body>
 </html>
