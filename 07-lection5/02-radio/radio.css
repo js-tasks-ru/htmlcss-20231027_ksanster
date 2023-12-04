@@ -26,6 +26,10 @@
 }
 
 .radio__icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--blue-2);
     display: none;
 }
 
