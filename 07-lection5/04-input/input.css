@@ -11,12 +11,10 @@
 
 .form-field__state {
     position: relative;
-    display: flex;
-    align-items: center;
+    display: grid;
 }
 
 .form-field__input {
-    width: 259px;
     height: 54px;
     border-radius: 8px;
     border: 1px solid var(--grey-2);
@@ -47,19 +45,19 @@
     right: 16px;
 }
 
-.form-field__icon-valid {
+.form-field__icon_valid {
     display: none;
 }
 
-.form-field__icon-invalid {
+.form-field__icon_invalid {
     display: none;
 }
 
-.form-field_success .form-field__icon-valid {
+.form-field_success .form-field__icon_valid {
     display: block;
 }
 
-.form-field_invalid .form-field__icon-invalid {
+.form-field_invalid .form-field__icon_invalid {
     display: block;
 }
 .form-field_invalid .form-field__input {
