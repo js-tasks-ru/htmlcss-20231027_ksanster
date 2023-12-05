@@ -9,3 +9,7 @@
 @import "../../components/container/container.css";
 @import "../../components/card/card.css";
 @import "../../components/tabs/tabs.css";
+
+html, body {
+    height: 100%;
+}

@@ -23,25 +23,27 @@
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
             </header>
-            <main class="preview page__main">
+            <main class="tabs">
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_all" id="#all-tab" checked>
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_element" id="#element-tab">
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_container" id="#container-tab">
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_template" id="#template-tab">
+
                 <div class="container">
-                    <div class="tabs">
-                        <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item-all" id="#all-tab" checked>
-                        <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item-element" id="#element-tab">
-                        <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item-container" id="#container-tab">
-                        <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item-template" id="#template-tab">
+                    <div class="tabs__scroller">
+                        <label class="tabs__menu-label tabs__menu-label_all" for="#all-tab">All components</label>
+                        <label class="tabs__menu-label tabs__menu-label_element" for="#element-tab">Elements</label>
+                        <label class="tabs__menu-label tabs__menu-label_container" for="#container-tab">Containers</label>
+                        <label class="tabs__menu-label tabs__menu-label_template" for="#template-tab">Templates</label>
+                        <div class="tabs__menu-selector tabs__menu-selector_all"></div>
+                        <div class="tabs__menu-selector tabs__menu-selector_element"></div>
+                        <div class="tabs__menu-selector tabs__menu-selector_container"></div>
+                        <div class="tabs__menu-selector tabs__menu-selector_template"></div>
+                    </div>
+                </div>
 
-                        <div class="tabs__scroller">
-                            <label class="tabs__menu-label tabs__menu-label-all" for="#all-tab">All components</label>
-                            <label class="tabs__menu-label tabs__menu-label-element" for="#element-tab">Elements</label>
-                            <label class="tabs__menu-label tabs__menu-label-container" for="#container-tab">Containers</label>
-                            <label class="tabs__menu-label tabs__menu-label-template" for="#template-tab">Templates</label>
-                            <div class="tabs__menu-selector tabs__menu-selector-all"></div>
-                            <div class="tabs__menu-selector tabs__menu-selector-element"></div>
-                            <div class="tabs__menu-selector tabs__menu-selector-container"></div>
-                            <div class="tabs__menu-selector tabs__menu-selector-template"></div>
-                        </div>
-
+                <div class="tabs__main">
+                    <div class="container">
                         <div class="tabs__content tabs__content_element">
                             <div class="card"></div>
                             <div class="card"></div>
