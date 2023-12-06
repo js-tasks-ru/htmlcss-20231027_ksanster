@@ -23,21 +23,51 @@
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
             </header>
-            <main class="preview page__main">
-                <div class="container">
-                    <div class="preview__cards">
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
+            <main class="tabs">
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_all" id="#all-tab" checked>
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_element" id="#element-tab">
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_container" id="#container-tab">
+                <input type="radio" name="menu" class="tabs__menu-item tabs__menu-item_template" id="#template-tab">
+
+                <div class="tabs__scroller">
+                    <label class="tabs__menu-label tabs__menu-label_all" for="#all-tab">All components</label>
+                    <label class="tabs__menu-label tabs__menu-label_element" for="#element-tab">Elements</label>
+                    <label class="tabs__menu-label tabs__menu-label_container" for="#container-tab">Containers</label>
+                    <label class="tabs__menu-label tabs__menu-label_template" for="#template-tab">Templates</label>
+                    <div class="tabs__menu-selector tabs__menu-selector_all"></div>
+                    <div class="tabs__menu-selector tabs__menu-selector_element"></div>
+                    <div class="tabs__menu-selector tabs__menu-selector_container"></div>
+                    <div class="tabs__menu-selector tabs__menu-selector_template"></div>
+                </div>
+                <div class="tabs__content tabs__content_element">
+                    <div class="container">
+                        <div class="preview preview__cards">
+                            <div class="card"></div>
+                            <div class="card"></div>
+                            <div class="card"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__content tabs__content_container">
+                    <div class="container">
+
+                        Контейнеры
+                    </div>
+                </div>
+                <div class="tabs__content tabs__content_template">
+                    <div class="container">
+                        Темплейты
                     </div>
                 </div>
             </main>
             <footer class="footer">
-                <div class="footer__inner">
-                    <h2 class="footer__title">About</h2>
-                    <p class="footer__text">
-                        This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.
-                    </p>
+                <div class="container">
+                    <div class="footer__inner">
+                        <h2 class="footer__title">About</h2>
+                        <p class="footer__text">
+                            This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.
+                        </p>
+                    </div>
                 </div>
             </footer>
         </div>
