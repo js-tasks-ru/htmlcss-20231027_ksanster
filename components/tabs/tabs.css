@@ -2,18 +2,16 @@
     height: 100%;
 }
 
-.tabs__main {
-    background-color: #F9FAFC;
-    padding-bottom: 92px;
-}
-
 .tabs__scroller {
     display: grid;
     grid-template-columns: repeat(4, auto);
     row-gap: 8px;
     column-gap: 40px;
     justify-content: start;
-    background-color: var(--white);
+
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px 0 16px;
 }
 
 .tabs__menu-selector {
@@ -22,7 +20,8 @@
 }
 
 .tabs__content {
-    padding: 40px 0 0 0;
+    background-color: #F9FAFC;
+    padding: 40px 0 92px 0;
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
@@ -70,47 +69,58 @@
     left: -100vw;
 }
 
-.tabs__menu-item_all:checked ~ .tabs__main .container
-.tabs__content {
+.tabs__menu-item_all:checked ~ .tabs__content {
     display: flex;
 }
 
-.tabs__menu-item_element:checked ~ .tabs__main .container
-.tabs__content_element {
+.tabs__menu-item_element:checked ~ .tabs__content_element {
     display: flex;
 }
 
-.tabs__menu-item_container:checked ~ .tabs__main .container
-.tabs__content_container {
+.tabs__menu-item_container:checked ~ .tabs__content_container {
     display: flex;
 }
 
-.tabs__menu-item_template:checked ~ .tabs__main .container
-.tabs__content_template {
+.tabs__menu-item_template:checked ~ .tabs__content_template {
     display: flex;
 }
 
-.tabs__menu-item:checked ~ .tabs__menu-selector {
+.tabs__menu-item_all:checked ~ .tabs__scroller
+.tabs__menu-selector_all {
     background-color: var(--black);
 }
 
+.tabs__menu-item_element:checked ~ .tabs__scroller
+.tabs__menu-selector_element {
+    background-color: var(--black);
+}
 
-.tabs__menu-item_all:focus ~ .container .tabs__scroller
+.tabs__menu-item_container:checked ~ .tabs__scroller
+.tabs__menu-selector_container {
+    background-color: var(--black);
+}
+
+.tabs__menu-item_template:checked ~ .tabs__scroller
+.tabs__menu-selector_template {
+    background-color: var(--black);
+}
+
+.tabs__menu-item_all:focus ~ .tabs__scroller
 .tabs__menu-label_all {
     text-decoration: underline;
 }
 
-.tabs__menu-item_element:focus ~ .container .tabs__scroller
+.tabs__menu-item_element:focus ~ .tabs__scroller
 .tabs__menu-label_element {
     text-decoration: underline;
 }
 
-.tabs__menu-item_container:focus ~ .container .tabs__scroller
+.tabs__menu-item_container:focus ~ .tabs__scroller
 .tabs__menu-label_container {
     text-decoration: underline;
 }
 
-.tabs__menu-item_template:focus ~ .container .tabs__scroller
+.tabs__menu-item_template:focus ~ .tabs__scroller
 .tabs__menu-label_template {
     text-decoration: underline;
 }
