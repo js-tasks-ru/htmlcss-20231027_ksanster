@@ -1,0 +1,14 @@
+.burger-menu {
+    background: rgb(127, 127, 127, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-100vw);
+    transition: transform 0.3s ease-out;
+}
+
+.burger-menu[data-open] {
+    transform: none;
+}
