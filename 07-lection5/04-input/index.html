@@ -6,10 +6,10 @@
         <link rel="stylesheet" href="./input.css">
         <style>
             .wrapper {
-                width: 720px;
+                max-width: 720px;
                 margin: 10px auto;
-                display: grid;
-                grid-template-columns: 350px 350px;
+                display: flex;
+                flex-wrap: wrap;
                 gap: 16px;
             }
         </style>
@@ -17,7 +17,7 @@
     <body>
         <div class="wrapper">
             <div class="form-field">
-                <label for="label">Label</label>
+                <label class="form-field__label" for="label">Label</label>
                 <div class="form-field__state">
                     <input type="text" class="form-field__input" placeholder="Placeholder" id="label">
                     <svg class="form-field__icon form-field__icon_valid">
@@ -30,7 +30,7 @@
             </div>
 
             <div class="form-field">
-                <label for="focus">Focus</label>
+                <label class="form-field__label" for="focus">Focus</label>
                 <div class="form-field__state">
                     <input type="text" class="form-field__input" placeholder="Placeholder" id="focus">
                     <svg class="form-field__icon form-field__icon_valid">
@@ -44,7 +44,7 @@
 
 
             <div class="form-field form-field_success">
-                <label for="success">Success</label>
+                <label class="form-field__label" for="success">Success</label>
                 <div class="form-field__state">
                     <input type="text" class="form-field__input" placeholder="Placeholder" id="success">
                     <svg class="form-field__icon form-field__icon_valid">
@@ -57,7 +57,7 @@
             </div>
 
             <div class="form-field form-field_invalid">
-                <label for="error">Error</label>
+                <label class="form-field__label" for="error">Error</label>
                 <div class="form-field__state">
                     <input type="text" class="form-field__input" placeholder="Placeholder" id="error">
                     <svg class="form-field__icon form-field__icon_valid">
