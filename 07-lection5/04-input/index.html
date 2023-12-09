@@ -4,8 +4,70 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
+        <style>
+            .wrapper {
+                max-width: 720px;
+                margin: 10px auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 16px;
+            }
+        </style>
     </head>
     <body>
+        <div class="wrapper">
+            <div class="form-field">
+                <label class="form-field__label" for="label">Label</label>
+                <div class="form-field__state">
+                    <input type="text" class="form-field__input" placeholder="Placeholder" id="label">
+                    <svg class="form-field__icon form-field__icon_valid">
+                        <use href="icons.svg#success"></use>
+                    </svg>
+                    <svg class="form-field__icon form-field__icon_invalid">
+                        <use href="icons.svg#error"></use>
+                    </svg>
+                </div>
+            </div>
 
+            <div class="form-field">
+                <label class="form-field__label" for="focus">Focus</label>
+                <div class="form-field__state">
+                    <input type="text" class="form-field__input" placeholder="Placeholder" id="focus">
+                    <svg class="form-field__icon form-field__icon_valid">
+                        <use href="icons.svg#success"></use>
+                    </svg>
+                    <svg class="form-field__icon form-field__icon_invalid">
+                        <use href="icons.svg#error"></use>
+                    </svg>
+                </div>
+            </div>
+
+
+            <div class="form-field form-field_success">
+                <label class="form-field__label" for="success">Success</label>
+                <div class="form-field__state">
+                    <input type="text" class="form-field__input" placeholder="Placeholder" id="success">
+                    <svg class="form-field__icon form-field__icon_valid">
+                        <use href="icons.svg#success"></use>
+                    </svg>
+                    <svg class="form-field__icon form-field__icon_invalid">
+                        <use href="icons.svg#error"></use>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="form-field form-field_invalid">
+                <label class="form-field__label" for="error">Error</label>
+                <div class="form-field__state">
+                    <input type="text" class="form-field__input" placeholder="Placeholder" id="error">
+                    <svg class="form-field__icon form-field__icon_valid">
+                        <use href="icons.svg#success"></use>
+                    </svg>
+                    <svg class="form-field__icon form-field__icon_invalid">
+                        <use href="icons.svg#error"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
