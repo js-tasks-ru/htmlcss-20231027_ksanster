@@ -52,6 +52,17 @@
     flex-direction: row;
     align-items: flex-end;
     gap: 1px;
+    transform-origin: bottom center;
+    animation: grow cubic-bezier(0.690, 1.650, 0.440, 0.610) 0.7s;
+}
+
+@keyframes grow {
+    0% {
+        scale: 100% 0;
+    }
+    100% {
+        scale: none;
+    }
 }
 
 .histogram__chart-item {

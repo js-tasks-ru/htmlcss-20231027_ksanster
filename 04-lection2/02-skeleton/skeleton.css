@@ -37,7 +37,9 @@
 
 .skeleton__row {
     height: 20px;
-    background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    background: linear-gradient(90deg, #DDE2E5 3.22%, #E2E6E8 19.23%, #F3F5F5 28.24%, #E3E7EA 38.75%, #DDE2E5 51.26%);
+    background-size: 200% 100%;
+    animation: gradient 3s linear infinite;
 }
 
 .skeleton__row_small {
@@ -54,4 +56,16 @@
 
 .skeleton__row_big {
     width: 92%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position-x: -50%;
+    }
+    50% {
+        background-position-x: 50%;
+    }
+    100% {
+        background-position-x: -50%;
+    }
 }

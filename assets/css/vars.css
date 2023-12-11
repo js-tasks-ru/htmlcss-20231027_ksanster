@@ -27,4 +27,14 @@
     --link: #4263EB;
     --notification: #D84910;
 
+    --main-bg: var(--white);
+    --font-color: var(--black);
+    --dark-bg: #F9FAFC;
+    --white-bg: var(--white);
+    --light-bg: var(--white);
+    --grey-bg: var(--grey-1);
+    --card-bg: var(--white);
+    --text-primary: var(--black);
+    --active-text-color: var(--text-primary);
+    --input-text-color: var(--grey-4);
 }
