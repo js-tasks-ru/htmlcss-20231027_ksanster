@@ -2,7 +2,7 @@
     width: 350px;
     height: 367px;
     border-radius: 12px;
-    background: var(--blue);
+    background: var(--card-bg);
     box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
 }
 
@@ -11,7 +11,6 @@
         width: 164px;
         height: 231px;
         border-radius: 8px;
-        background: var(--white);
         box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
     }
 }
