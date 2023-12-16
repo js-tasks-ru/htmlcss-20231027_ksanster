@@ -27,7 +27,7 @@
 }
 
 .menu__item {
-    color: var(--black);
+    color: var(--font-color);
     font-family: Inter;
     font-size: 14px;
     font-style: normal;

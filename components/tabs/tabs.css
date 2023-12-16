@@ -1,5 +1,6 @@
 .tabs {
     height: 100%;
+    background-color: var(--main-bg);
 }
 
 .tabs__scroller {
@@ -20,7 +21,7 @@
 }
 
 .tabs__content {
-    background-color: #F9FAFC;
+    background-color: var(--grey-bg);
     padding: 40px 0 92px 0;
     display: flex;
     flex-grow: 1;
@@ -53,7 +54,7 @@
 }
 
 .tabs__menu-label {
-    color: var(--grey-3);
+    color: var(--active-text-color);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -87,22 +88,22 @@
 
 .tabs__menu-item_all:checked ~ .tabs__scroller
 .tabs__menu-selector_all {
-    background-color: var(--black);
+    background-color: var(--active-text-color);
 }
 
 .tabs__menu-item_element:checked ~ .tabs__scroller
 .tabs__menu-selector_element {
-    background-color: var(--black);
+    background-color: var(--active-text-color);
 }
 
 .tabs__menu-item_container:checked ~ .tabs__scroller
 .tabs__menu-selector_container {
-    background-color: var(--black);
+    background-color: var(--active-text-color);
 }
 
 .tabs__menu-item_template:checked ~ .tabs__scroller
 .tabs__menu-selector_template {
-    background-color: var(--black);
+    background-color: var(--active-text-color);
 }
 
 .tabs__menu-item_all:focus ~ .tabs__scroller

@@ -13,6 +13,7 @@
     align-items: center;
     gap: 12px;
     cursor: pointer;
+    position: relative;
 }
 
 .checkbox__switcher {
@@ -64,4 +65,18 @@
 .checkbox__input:disabled ~ .checkbox__state
 .checkbox__icon {
     display: none;
+}
+
+.checkbox__input:checked ~ .checkbox__state
+.checkbox__switcher {
+    animation: wave 0.7s;
+}
+
+@keyframes wave {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
 }

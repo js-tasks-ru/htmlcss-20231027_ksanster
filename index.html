@@ -1,24 +1,49 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
     <head>
         <link rel="stylesheet" href="./assets/css/main.css">
+        <script defer src="./assets/scripts/theme-changer.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(function(){
+                    document.body.className="";
+                },700);
+            })
+        </script>
     </head>
-    <body>
+    <body class="preload">
         <div class="page">
             <header class="header header_main">
                 <div class="container">
                     <div class="header__items">
-                        <div class="header__items-button">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <div class="header__icons">
+                            <div class="header__items-button">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="header__items-icon header__items-icon_square"></div>
+                            <div class="header__items-icon header__items-icon_circle"></div>
+                            <div class="header__items-icon header__items-icon_triangle"></div>
+                        </div>
+                        <div class="header__theme-changer">
+                            <svg class="header__theme-icon">
+                                <use href="assets/images/icons.svg#sun"></use>
+                            </svg>
+                            <label class="toggler">
+                                <input type="checkbox" class="toggler__input" id="theme-changer">
+                                <div class="toggler__state">
+                                    <div class="toggler__switcher">
+                                        <div class="toggler__icon"></div>
+                                    </div>
+                                </div>
+                            </label>
+                            <svg class="header__theme-icon">
+                                <use href="assets/images/icons.svg#moon"></use>
                             </svg>
                         </div>
-
-                        <div class="header__items-icon header__items-icon_square"></div>
-                        <div class="header__items-icon header__items-icon_circle"></div>
-                        <div class="header__items-icon header__items-icon_triangle"></div>
                     </div>
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
@@ -50,13 +75,12 @@
                 </div>
                 <div class="tabs__content tabs__content_container">
                     <div class="container">
-
-                        Контейнеры
+                        Containers
                     </div>
                 </div>
                 <div class="tabs__content tabs__content_template">
                     <div class="container">
-                        Темплейты
+                        Templates
                     </div>
                 </div>
             </main>

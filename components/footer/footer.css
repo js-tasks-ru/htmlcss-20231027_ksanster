@@ -1,10 +1,10 @@
 .footer {
-    background-color: var(--white);
+    background-color: var(--main-bg);
     padding: 80px 0;
 }
 
 .footer__title {
-    color: var(--black);
+    color: var(--font-color);
     text-align: center;
     font-family: Inter;
     font-size: 38px;
@@ -15,7 +15,7 @@
 }
 
 .footer__text {
-    color: var(--black);
+    color: var(--font-color);
     text-align: center;
     font-family: Inter;
     font-size: 16px;
@@ -32,7 +32,7 @@
 }
 
 .footer__label {
-    color: var(--grey-3);
+    color: var(--label-color);
     font-family: Inter;
     font-size: 12px;
     font-style: normal;
